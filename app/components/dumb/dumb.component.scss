@@ -1,0 +1,13 @@
+ion-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ion-card {
+    border-radius: 20px;
+}
+
+.price {
+    color: rgb(190, 5, 5);
+}

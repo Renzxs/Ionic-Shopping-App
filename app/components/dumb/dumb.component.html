@@ -1,0 +1,14 @@
+<ion-card>
+  <ion-img src="{{item.img}}"></ion-img>
+  <ion-card-header>
+    <div class="product-header">
+      <ion-card-title>{{item.name}}</ion-card-title>
+      <ion-card-subtitle>{{item.category}}</ion-card-subtitle>
+    </div>
+    <h3 class="price">${{item.price}}</h3>
+  </ion-card-header>
+
+  <ion-card-content>
+    {{item.shortDescription}}
+  </ion-card-content>
+</ion-card>
